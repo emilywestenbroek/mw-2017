@@ -10,18 +10,24 @@ body {
 .hero {
   height: 640px;
   width: 100%;
-  background: url("file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/hero.jpg");
+  background: url("images/hero.jpg");
+}
+.nav-list ul {
+  float: right;
+  margin: 0;
+  padding: 0;
 }
 
 #home {
-  background-image: url("file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/factory-logo.png");
+  background-image: url("images/factory-logo.png");
   height: 100px;
   width: 157px;
-  display: block;
+  display: inline-block;
   margin-top: 18px;
   margin-left: 34px;
+  float: left;
 }
-.nav >a {
+.nav-list-item > a {
   text-decoration: none;
   color: #FFFFFF;
 }
@@ -32,13 +38,14 @@ body {
   color: #FFFFFF;
 }
 
-.nav {
-  float: right;
+.nav-list-item {
+  float: left;
   text-decoration: none;
   margin: 0;
   padding: 14px;
   list-style-type: none;
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 .home {
@@ -51,10 +58,12 @@ body {
   text-align: center;
   font-size: 92px;
   font-weight: 100;
+  display: inline-block;
+  width: 100%;
 }
 
 .class-date::after {
-  content: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/mw-icon.png);
+  content: url("images/mw-icon.png");
   display: block;
 }
 
@@ -66,6 +75,8 @@ body {
   margin-top: 5px;
   margin-bottom: 22px;
   font-weight: 100;
+  display: inline-block;
+  width: 100%;
 }
 
 .introduction {
@@ -73,7 +84,7 @@ body {
 }
 
 .intro-text::after {
-  content: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/divider.png);
+  content: url("images/divider.png");
   display: block;
   margin-top: 77px;
 }
@@ -93,13 +104,13 @@ body {
 }
 
 .instructor {
-  background: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/instructor.jpg);
+  background: url("images/instructor.jpg");
   height: 701px;
   width: 100%;
 }
 
 .footer {
-  background: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/footer.jpg);
+  background: url("images/footer.jpg");
   height: 672px;
   width: 100%;
 }
