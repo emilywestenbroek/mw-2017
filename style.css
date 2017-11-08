@@ -1,0 +1,105 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    /*font-weight: 400;*/
+  }
+
+.hero {
+  height: 640px;
+  width: 100%;
+  background: url("file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/hero.jpg");
+}
+
+#home {
+  background-image: url("file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/factory-logo.png");
+  height: 100px;
+  width: 157px;
+  display: block;
+  margin-top: 18px;
+  margin-left: 34px;
+}
+.nav >a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav-list {
+  margin: 35px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+.nav {
+  float: right;
+  text-decoration: none;
+  margin: 0;
+  padding: 14px;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.home {
+  margin-top: 18px;
+  margin-left: 34px;
+}
+
+.header {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 92px;
+  font-weight: 100;
+}
+
+.class-date::after {
+  content: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/mw-icon.png);
+  display: block;
+}
+
+.class-date {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  border: 1px solid red;
+  margin-top: 5px;
+  margin-bottom: 22px;
+  font-weight: 100;
+}
+
+.introduction {
+  background-color: white;
+}
+
+.intro-text::after {
+  content: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/divider.png);
+  display: block;
+  margin-top: 77px;
+}
+
+.intro-text {
+    clear: both;
+    color: #C3BFBF;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.course-goals-headline {
+  color: #777777;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.instructor {
+  background: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/instructor.jpg);
+  height: 701px;
+  width: 100%;
+}
+
+.footer {
+  background: url(file:///Users/emilywestenbroek/Desktop/MW%20Project/Modern-Web-Images-2017-master/footer.jpg);
+  height: 672px;
+  width: 100%;
+}
