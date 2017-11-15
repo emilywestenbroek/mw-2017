@@ -1,4 +1,3 @@
-# mw-2018
 Project for Modern Web
 developer
 
