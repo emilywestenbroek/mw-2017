@@ -104,6 +104,8 @@ body {
   font-size: 28px;
   text-transform: uppercase;
   weight: 300;
+  text-align: center;
+  margin-top: 157px;
 }
 
 .goal-list {
@@ -112,10 +114,10 @@ body {
   weight: 400;
   list-style-type: none;
   text-decoration: none;
-  margin-left: 55px;
   text-align: left;
-  margin-bottom: 101px;
-
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .goal-list h3 {
@@ -123,11 +125,35 @@ body {
 }
 
 .goal-list li {
+  margin-bottom: 101px;
   padding: 53px;
+  border: 1px solid green;
   float: left;
   margin: 0;
-  width: 33%;
 }
+
+@media (min-width: 480px) {
+  .goal-list li {
+    width: 50%;
+  }
+  .goal-list li:nth-child(odd) {
+    border: 1px solid blue;
+    clear: left;
+  }
+}
+@media (min-width: 768px) {
+  .goal-list li {
+    width: 33%;
+  }
+  .goal-list li:nth-child(odd) {
+    clear: none;
+  }
+  .goal-list li:nth-child(3n+1) {
+    border: 1px solid blue;
+    clear: left;
+  }
+}
+
 .instructor {
   background: url("images/instructor.jpg");
   height: 701px;
