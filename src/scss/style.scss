@@ -1,25 +1,24 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*, *:after, *:before {
+  box-sizing: border-box;
   }
 
 body {
     font-family: 'Roboto', Helvetica, sans-serif;
-    /*font-weight: 400;*/
   }
 
 .hero {
   height: 640px;
   width: 100%;
-  background: url("./../images/hero.jpg");
+  background: url("images/hero.jpg");
 }
 .nav-list ul {
   float: right;
   margin: 0;
-  padding: 0;
+  padding: 35px;
 }
 
 #home {
-  background-image: url("./../images/factory-logo.png");
+  background-image: url("images/factory-logo.png");
   height: 100px;
   width: 157px;
   display: inline-block;
@@ -63,7 +62,7 @@ body {
 }
 
 .class-date::after {
-  content: url("./../images/mw-icon.png");
+  content: url("images/mw-icon.png");
   display: block;
 }
 
@@ -84,7 +83,7 @@ body {
 }
 
 .intro-text::after {
-  content: url("./../images/divider.png");
+  content: url("images/divider.png");
   display: block;
   margin-top: 77px;
 }
@@ -94,23 +93,75 @@ body {
     color: #C3BFBF;
     font-size: 32px;
     text-align: center;
+    margin: 0 auto;
     margin-top: 150px;
+    max-width: 844px;
+    font-weight: 300;
 }
 
 .course-goals-headline {
   color: #777777;
   font-size: 28px;
   text-transform: uppercase;
+  weight: 300;
+  text-align: center;
+  margin-top: 157px;
+}
+
+.goal-list {
+  color: #777777;
+  font-size: 16px;
+  weight: 400;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.goal-list h3 {
+  text-transform: uppercase;
+}
+
+.goal-list li {
+  margin-bottom: 101px;
+  padding: 53px;
+  border: 1px solid green;
+  float: left;
+  margin: 0;
+}
+
+@media (min-width: 480px) {
+  .goal-list li {
+    width: 50%;
+  }
+  .goal-list li:nth-child(odd) {
+    border: 1px solid blue;
+    clear: left;
+  }
+}
+@media (min-width: 768px) {
+  .goal-list li {
+    width: 33%;
+  }
+  .goal-list li:nth-child(odd) {
+    clear: none;
+  }
+  .goal-list li:nth-child(3n+1) {
+    border: 1px solid blue;
+    clear: left;
+  }
 }
 
 .instructor {
-  background: url("./../images/instructor.jpg");
+  background: url("images/instructor.jpg");
   height: 701px;
   width: 100%;
 }
 
 .footer {
-  background: url("./../images/footer.jpg");
+  background: url("images/footer.jpg");
   height: 672px;
   width: 100%;
 }
