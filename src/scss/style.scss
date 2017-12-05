@@ -10,7 +10,7 @@ body {
 .hero {
   height: 640px;
   width: 100%;
-  background: url("images/hero.jpg");
+  background: url("./../images/hero.jpg");
 }
 .nav-list ul {
   float: right;
@@ -19,7 +19,7 @@ body {
 }
 
 #home {
-  background-image: url("images/factory-logo.png");
+  background-image: url("./../images/factory-logo.png");
   height: 100px;
   width: 157px;
   display: inline-block;
@@ -63,7 +63,7 @@ body {
 }
 
 .class-date::after {
-  content: url("images/mw-icon.png");
+  content: url("./../images/mw-icon.png");
   display: block;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .intro-text::after {
-  content: url("images/divider.png");
+  content: url("./../images/divider.png");
   display: block;
   margin-top: 77px;
 }
@@ -104,13 +104,13 @@ body {
 }
 
 .instructor {
-  background: url("images/instructor.jpg");
+  background: url("./../images/instructor.jpg");
   height: 701px;
   width: 100%;
 }
 
 .footer {
-  background: url("images/footer.jpg");
+  background: url("./../images/footer.jpg");
   height: 672px;
   width: 100%;
 }
